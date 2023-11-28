@@ -10,6 +10,17 @@ public class Queue<T extends Comparable<T>> {
 	}
 
 	/*
+	 * @params: None
+	 * 
+	 * @return : boolean (true if the stack is empty, false otherwise)
+	 * 
+	 * @Description: Checking if the stack is empty
+	 */
+	private boolean isEmpty() {
+		return linkedList.getHead() == null;
+	}
+
+	/*
 	 * @params: T data
 	 * 
 	 * @return : void
@@ -18,6 +29,22 @@ public class Queue<T extends Comparable<T>> {
 	 */
 	public void enqueue(T data) {
 		linkedList.insertAtEnd(data);
+	}
+
+	/*
+	 * @params: T data
+	 * 
+	 * @return : void
+	 * 
+	 * @Description: Dequeue operation (removing element from front of the queue)
+	 */
+	public T dequeue() {
+		if (isEmpty()) {
+			System.out.println("Stack is empty");
+		}
+		T poppedData = linkedList.getHead().data;
+		linkedList.pop();
+		return poppedData;
 	}
 
 	/*
@@ -44,5 +71,13 @@ public class Queue<T extends Comparable<T>> {
 		// Display the queue
 		System.out.println("Queue elements:");
 		queue.display();
+
+		// Dequeue elements from queue
+		System.out.println();
+		System.out.println("Dequeued items: ");
+		System.out.println(queue.dequeue());
+		System.out.println(queue.dequeue());
+		System.out.println(queue.dequeue());
+
 	}
 }
