@@ -1,4 +1,4 @@
-package com.bridgelabs.LLStack;
+package com.bridgelabs.StackAndQueues;
 
 public class Stack<T extends Comparable<T>> {
 	private LinkedList<T> linkedList;

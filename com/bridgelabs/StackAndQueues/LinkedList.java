@@ -1,4 +1,4 @@
-package com.bridgelabs.LLStack;
+package com.bridgelabs.StackAndQueues;
 
 /*
  * @CLass Variables: head
