@@ -7,7 +7,7 @@ This repository showcases an implementation of fundamental data structures – t
 
 | Branch Link                                                                                        | Description                                           |
 |-----------------------------------------------------------------------------------------------------|-------------------------------------------------------|
-| [UC_1_Create_a_Stack_and_Push_Elements](https://github.com/shro-2002/Stack-And-Queue-Using-Linked-List/tree/UC_1_Create_a_Stack_and_Push_Elements)) | Create a stack and push elements onto it.             |
+| [UC_1_Create_a_Stack_and_Push_Elements](https://github.com/shro-2002/Stack-And-Queue-Using-Linked-List/tree/UC_1_Create_a_Stack_and_Push_Elements) | Create a stack and push elements onto it.             |
 | [UC_2_Pop_and_Peek_Element_from_Stack](https://github.com/shro-2002/Stack-And-Queue-Using-Linked-List/tree/UC_2_Pop_and_Peek_Element_from_Stack) | Pop and peek operations for the stack.               |
 | [UC_3_Create_Queue_and_Enqueue_Elements](https://github.com/shro-2002/Stack-And-Queue-Using-Linked-List/tree/UC_3_Create_Queue_and_Enqueue_Elements) | Create a queue and enqueue elements into it.         |
 | [UC_4_Dequeue_From_Queue](https://github.com/shro-2002/Stack-And-Queue-Using-Linked-List/tree/UC_4_Dequeue_From_Queue) | Dequeue operation for the queue.                     |
